@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" >
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="35dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view1"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view2"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view3"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view4"
+            android:layout_marginTop="35dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view5"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view6"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view7"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view8"
+            android:layout_marginTop="35dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view10"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view9"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view11"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view10"
+            android:layout_marginTop="35dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view12"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view11"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view13"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view12"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view14"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view13"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/vv4"
+            android:layout_width="1dp"
+            android:layout_height="1005dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="46dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/vv1"
+            android:layout_width="1dp"
+            android:layout_height="1005dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="135dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/vv3"
+            android:layout_width="1dp"
+            android:layout_height="1005dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="265dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/vv2"
+            android:layout_width="1dp"
+            android:layout_height="1005dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="205dp"
+            android:background="@color/gray" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="30sp"
+            android:layout_height="20sp"
+            android:layout_alignBottom="@+id/view1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="53dp"
+            android:text="A点"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="220sp"
+            android:layout_height="20sp"
+            android:layout_alignBaseline="@+id/textView1"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="155dp"
+            android:text="阵型       敌制空    优势     确保"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="30sp"
+            android:layout_height="20sp"
+            android:layout_alignBottom="@+id/view5"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="53dp"
+            android:text="B点"
+            android:textColor="@color/zred"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="220sp"
+            android:layout_height="20sp"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_marginLeft="155dp"
+            android:text="阵型       敌制空    优势     确保"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="30sp"
+            android:layout_height="20sp"
+            android:layout_alignBottom="@+id/view9"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="53dp"
+            android:text="C点"
+            android:textColor="@color/green"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="220sp"
+            android:layout_height="20sp"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_marginLeft="155dp"
+            android:text="阵型       敌制空    优势     确保"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="30sp"
+            android:layout_height="20sp"
+            android:layout_alignBottom="@+id/view11"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="53dp"
+            android:text="D点"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="220sp"
+            android:layout_height="20sp"
+            android:layout_alignBaseline="@+id/textView4"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_marginLeft="155dp"
+            android:text="阵型       敌制空    优势     确保"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <!-- *********************************************************************************************************************** -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_below="@+id/view1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="輕巡ホ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐イ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐イ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐ロ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐イ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view3"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="輕巡ヘ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐ロ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐ロ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view5"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="輕巡ヘ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="雷巡チ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐ハ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐ハ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐ロ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view6"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="輕巡ヘ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="輕巡ホ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐イ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐イ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐イ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view7"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="輕巡ヘ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="輕巡ホ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐ロ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐イ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐イ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view9"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="彈藥增加10-20"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(5為單位浮動)"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view11"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="輕巡ホ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐イ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐イ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view12"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐ロ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" /><TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐イ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view14"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view13"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="輕巡ヘ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐ロ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐ロ級"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <!-- *********************************************************************************************************************** -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view2"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignRight="@+id/vv2"
+            android:layout_below="@+id/view1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="單縱"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view3"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignRight="@+id/vv2"
+            android:layout_alignTop="@+id/view2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="單縱"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view4"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignRight="@+id/vv2"
+            android:layout_alignTop="@+id/view3"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="單縱"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view6"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignRight="@+id/vv2"
+            android:layout_alignTop="@+id/view5"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="單縱"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view7"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignRight="@+id/vv2"
+            android:layout_alignTop="@+id/view6"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="單縱"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view8"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignRight="@+id/vv2"
+            android:layout_alignTop="@+id/view7"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="單縱"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view10"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignRight="@+id/vv2"
+            android:layout_alignTop="@+id/view9"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view12"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignRight="@+id/vv2"
+            android:layout_alignTop="@+id/view11"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="單縱"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view13"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignRight="@+id/vv2"
+            android:layout_alignTop="@+id/view12"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="單縱"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view14"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignRight="@+id/vv2"
+            android:layout_alignTop="@+id/view13"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="單縱"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+        <!-- *********************************************************************************************************************** -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view2"
+            android:layout_alignLeft="@+id/vv2"
+            android:layout_alignRight="@+id/vv3"
+            android:layout_below="@+id/view1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view3"
+            android:layout_alignLeft="@+id/vv2"
+            android:layout_alignRight="@+id/vv3"
+            android:layout_below="@+id/view2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view4"
+            android:layout_alignLeft="@+id/vv2"
+            android:layout_alignRight="@+id/vv3"
+            android:layout_below="@+id/view3"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view6"
+            android:layout_alignLeft="@+id/vv2"
+            android:layout_alignRight="@+id/vv3"
+            android:layout_below="@+id/view5"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view7"
+            android:layout_alignLeft="@+id/vv2"
+            android:layout_alignRight="@+id/vv3"
+            android:layout_below="@+id/view6"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view8"
+            android:layout_alignLeft="@+id/vv2"
+            android:layout_alignRight="@+id/vv3"
+            android:layout_below="@+id/view7"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view10"
+            android:layout_alignLeft="@+id/vv2"
+            android:layout_alignRight="@+id/vv3"
+            android:layout_below="@+id/view9"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view12"
+            android:layout_alignLeft="@+id/vv2"
+            android:layout_alignRight="@+id/vv3"
+            android:layout_below="@+id/view11"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view13"
+            android:layout_alignLeft="@+id/vv2"
+            android:layout_alignRight="@+id/vv3"
+            android:layout_below="@+id/view12"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view14"
+            android:layout_alignLeft="@+id/vv2"
+            android:layout_alignRight="@+id/vv3"
+            android:layout_below="@+id/view13"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+        <!-- *********************************************************************************************************************** -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view2"
+            android:layout_alignLeft="@+id/vv3"
+            android:layout_alignRight="@+id/vv4"
+            android:layout_below="@+id/view1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view3"
+            android:layout_alignLeft="@+id/vv3"
+            android:layout_alignRight="@+id/vv4"
+            android:layout_below="@+id/view2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view4"
+            android:layout_alignLeft="@+id/vv3"
+            android:layout_alignRight="@+id/vv4"
+            android:layout_below="@+id/view3"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view6"
+            android:layout_alignLeft="@+id/vv3"
+            android:layout_alignRight="@+id/vv4"
+            android:layout_below="@+id/view5"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view7"
+            android:layout_alignLeft="@+id/vv3"
+            android:layout_alignRight="@+id/vv4"
+            android:layout_below="@+id/view6"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view8"
+            android:layout_alignLeft="@+id/vv3"
+            android:layout_alignRight="@+id/vv4"
+            android:layout_below="@+id/view7"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view10"
+            android:layout_alignLeft="@+id/vv3"
+            android:layout_alignRight="@+id/vv4"
+            android:layout_below="@+id/view9"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view12"
+            android:layout_alignLeft="@+id/vv3"
+            android:layout_alignRight="@+id/vv4"
+            android:layout_below="@+id/view11"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view13"
+            android:layout_alignLeft="@+id/vv3"
+            android:layout_alignRight="@+id/vv4"
+            android:layout_below="@+id/view12"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view14"
+            android:layout_alignLeft="@+id/vv3"
+            android:layout_alignRight="@+id/vv4"
+            android:layout_below="@+id/view13"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+        <!-- *********************************************************************************************************************** -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view2"
+            android:layout_alignLeft="@+id/vv4"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view3"
+            android:layout_alignLeft="@+id/vv4"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view4"
+            android:layout_alignLeft="@+id/vv4"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view3"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view6"
+            android:layout_alignLeft="@+id/vv4"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view5"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view7"
+            android:layout_alignLeft="@+id/vv4"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view6"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view8"
+            android:layout_alignLeft="@+id/vv4"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view7"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view10"
+            android:layout_alignLeft="@+id/vv4"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view9"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view12"
+            android:layout_alignLeft="@+id/vv4"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view11"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view13"
+            android:layout_alignLeft="@+id/vv4"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view12"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view14"
+            android:layout_alignLeft="@+id/vv4"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view13"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

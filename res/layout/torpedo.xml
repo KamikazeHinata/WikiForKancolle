@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1"
+        android:background="@drawable/equip" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="攻撃機"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/button_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/main"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" >
+
+            <LinearLayout
+                android:id="@+id/tp1"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="艦上攻撃機"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/tp_97"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp1"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_tp_97"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tp_97"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="九七式艦攻"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/tp97_931"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp_97"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_tp97_931"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tp97_931"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="九七式艦攻(九三一空)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/tenzan"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp97_931"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_tenzan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tenzan"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="天山"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/tpprac_97"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tenzan"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_tpprac_97"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tpprac_97"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="九七式艦攻(熟練)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/tenzan931"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tpprac_97"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_tenzan931"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tenzan931"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="天山(九三一空)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/ryuusei"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tenzan931"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_tryuusei"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/ryuusei"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="流星"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/tenzan601"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/ryuusei"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_tenzan601"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tenzan601"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="天山(六〇一空)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/tpyou_97"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tenzan601"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_tpyou_97"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tpyou_97"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="九七式艦攻(友永隊)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/tpcun_97"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tpyou_97"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_tpcun_97"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tpcun_97"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="九七式艦攻(村田隊)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/ryuuseikai"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tpcun_97"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_ryuuseikai"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/ryuuseikai"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="流星改"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/ryuusei601"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/ryuuseikai"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_ryuusei601"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/ryuusei601"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="流星(六〇一空)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/tenzanyou"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/ryuusei601"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_tenzanyou"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tenzanyou"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="天山一二型(友永隊)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/tenzancun"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tenzanyou"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_tenzancun"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tenzancun"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="天山一二型(村田隊)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1"
+        android:background="@drawable/equip" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="爆撃機"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/button_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/main"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" >
+
+            <LinearLayout
+                android:id="@+id/tp1"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="艦上爆撃機"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/Tp62"
+                android:layout_width="350sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp1"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_Tp62"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/Tp62"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="零式艦戰62型(爆戰)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/Tp62yan"
+                android:layout_width="350sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/Tp62"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_Tp62yan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/Tp62yan"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="零戰62型(爆戰/岩井隊)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/tp_99"
+                android:layout_width="350sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/Tp62yan"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_tp_99"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tp_99"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="九九式艦爆"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/tpprac_99"
+                android:layout_width="350sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp_99"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_tpprac_99"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tpprac_99"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="九九式艦爆(熟練)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/suisei"
+                android:layout_width="350sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tpprac_99"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_suisei"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/suisei"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="彗星"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/ju87c"
+                android:layout_width="350sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/suisei"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_ju87c"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/ju87c"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ju87C改"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/suiseiTp12"
+                android:layout_width="350sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/ju87c"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_suiseiTp12"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/suiseiTp12"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="彗星一二型甲"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/tpjiang_99"
+                android:layout_width="350sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/suiseiTp12"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_tpjiang_99"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tpjiang_99"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="九九式艦爆(江草隊)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/suisei601"
+                android:layout_width="350sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tpjiang_99"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_suisei601"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/suisei601"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="彗星(六〇一空)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/nanzan"
+                android:layout_width="350sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/suisei601"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_nanzan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/nanzan"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="試製南山"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/suiseijiang"
+                android:layout_width="350sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/nanzan"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_suiseijiang"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/suiseijiang"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="彗星(江草隊)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tp2"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_below="@+id/suiseijiang"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="水上爆撃機"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/zuiun"
+                android:layout_width="350sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp2"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_zuiun"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/zuiun"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="瑞雲"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/zuiun634"
+                android:layout_width="350sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/zuiun"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_zuiun634"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/zuiun634"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="瑞雲(六三四空)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/zuiunTp12"
+                android:layout_width="350sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/zuiun634"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_zuiunTp12"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/zuiunTp12"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 瑞雲12型"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/zuiun634Tp12"
+                android:layout_width="350sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/zuiunTp12"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_zuiun634Tp12"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/zuiun634Tp12"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 瑞雲12型(六三四空)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/seiran"
+                android:layout_width="350sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/zuiun634Tp12"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_seiran"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/seiran"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 試製晴嵐"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

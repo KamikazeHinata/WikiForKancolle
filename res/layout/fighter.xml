@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1"
+        android:background="@drawable/equip" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="戦闘機"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/button_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/main"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" >
+
+            <LinearLayout
+                android:id="@+id/tp1"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="艦上戦闘機"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/tp_96"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp1"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_tp_96"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tp_96"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="九六式艦戰"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/Tp21"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp_96"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_Tp21"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/Tp21"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="零式艦戰21型 "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/Tp52"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/Tp21"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_Tp52"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/Tp52"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="零式艦戰52型 "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/Tp21prac"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/Tp52"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_Tp21prac"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/Tp21prac"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="零式艦戰21型(熟練) "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/shiden"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/Tp21prac"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_shiden"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/shiden"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="紫電改二 "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/Tp52601"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/shiden"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_Tp52601"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/Tp52601"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="零式艦戰52型丙(六〇一空) "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/Tp52prac"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/Tp52601"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_Tp52prac"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/Tp52prac"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="零式艦戰52型(熟練) "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/Tp21fu"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/Tp52prac"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_Tp21fu"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/Tp21fu"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="零戰21型(付岩本小隊) "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/reppu"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/Tp21fu"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_reppu"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/reppu"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="烈風"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/Tp52fu"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/reppu"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_Tp52fu"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/Tp52fu"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="零戰52型丙(付岩井小隊)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/reppu601"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/Tp52fu"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_reppu601"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/reppu601"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="烈風(六〇一空)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/Tp52jiafu"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/reppu601"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_Tp52jiafu"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/Tp52jiafu"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="零戰52型甲(付岩本小隊) "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/reppukai"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/Tp52jiafu"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_reppukai"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/reppukai"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="烈風改 "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/Tp53"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/reppukai"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_Tp53"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/Tp53"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="零式艦戰53型(岩本隊) "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/zhendian"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/Tp53"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_zhendian"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/zhendian"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="震電改 "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

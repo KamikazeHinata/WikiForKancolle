@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1"
+        android:background="@drawable/equip" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="電探"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/button_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/main"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" >
+
+            <LinearLayout
+                android:id="@+id/tp1"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小型電探"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/num13"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp1"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_num13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/num13"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13號對空電探"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/num13kai"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/num13"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_num13kai"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/num13kai"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13號對空電探改"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/num22"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/num13kai"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_num22"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/num22"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="22號對水上電探"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/num22kai"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/num22"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_num22kai"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/num22kai"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="22號對水上電探改四"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/num33"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/num22kai"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_num33"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/num33"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="33號對水上電探"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tp2"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_below="@+id/num33"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="大型電探"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/num21"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp2"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_num21"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/num21"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="21號對空電探"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            
+            <ImageButton
+                android:id="@+id/num14"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/num21"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_num14"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/num14"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14號對空電探 "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+           
+            <ImageButton
+                android:id="@+id/num21kai"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/num14"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_num21kai"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/num21kai"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="21號對空電探改 "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+           
+            <ImageButton
+                android:id="@+id/fumo25"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/num21kai"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_fumo25"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/fumo25"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FuMO25 雷達"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+           
+            <ImageButton
+                android:id="@+id/num32"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/fumo25"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_num32"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/num32"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="32號對水上電探"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+           
+            <ImageButton
+                android:id="@+id/num32kai"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/num32"
+                android:background="@drawable/buttom_style" />
+
+            <LinearLayout
+                android:id="@+id/t_num32kai"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/num32kai"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="32號對水上電探改"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+           
+            <ImageButton
+                android:id="@+id/m_15"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/num32kai"
+                android:background="@drawable/buttom_style" />
+            
+            
+            <LinearLayout
+                android:id="@+id/t_m_15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/m_15"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15m二重測距儀+21號電探改二"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+           
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/assign"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1"
+        android:background="@color/orange" >
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="改装"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/button_back" />
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/assign"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" >
+            
+             <LinearLayout
+                android:id="@+id/tp1"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="@color/sgreen"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一次性任务"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+                
+            </LinearLayout>
+            
+
+          
+            <ImageButton
+                android:id="@+id/g1"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp1"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/g4"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/g1"
+                android:background="@drawable/buttom_style" />
+            
+            <LinearLayout
+                android:id="@+id/tp2"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="@color/sgreen"
+                android:layout_below="@+id/g4"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="日常"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+                
+            </LinearLayout>
+            
+            <ImageButton
+                android:id="@+id/g2"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp2"
+                android:background="@drawable/buttom_style" />
+            
+            <LinearLayout
+                android:id="@+id/tp3"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="@color/sgreen"
+                android:layout_below="@+id/g2"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="周常"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+                
+            </LinearLayout>
+            
+            <ImageButton
+                android:id="@+id/g3"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp3"
+                android:background="@drawable/buttom_style" />
+            
+            <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/g1"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="G1 はじめての「近代化改修」！"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/g2"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="G2 艦の「近代化改修」を実施せよ！"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/g3"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="G3 「近代化改修」を進め、戦備を整えよ！"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/g4"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="G4 「大型艦建造」の準備！(その壱)"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+            
+            
+            </RelativeLayout>
+    </ScrollView>
+ </RelativeLayout>

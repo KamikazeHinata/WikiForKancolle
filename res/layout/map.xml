@@ -1,0 +1,1362 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:slidingWidth="http://schemas.android.com/apk/res/com.android.wikiforkancolle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+       
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white" >
+
+                
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/id_viewpager"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    >
+                </android.support.v4.view.ViewPager>
+         <LinearLayout 
+                                 android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/include1"
+                    android:background="@drawable/map">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center"
+                    android:text="海域"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+		</LinearLayout>
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/map" 
+                    android:layout_above="@id/include1">
+
+                    <RelativeLayout
+                        android:id="@+id/maplayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white" >
+
+                        <ImageButton
+                            android:id="@+id/otf"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignRight="@+id/otth"
+                            android:layout_below="@+id/otth"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/otfi"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignLeft="@+id/otf"
+                            android:layout_below="@+id/otf"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/otth"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_below="@+id/ott"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/ott"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_below="@+id/oto"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/ttt"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_below="@+id/tto"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_below="@+id/ttth"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/ttfi"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_below="@+id/ttf"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/thtt"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignLeft="@+id/thto"
+                            android:layout_below="@+id/thto"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/thtth"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignLeft="@+id/thtt"
+                            android:layout_below="@+id/thtt"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/thtf"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignLeft="@+id/thtth"
+                            android:layout_below="@+id/thtth"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/thtfi"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignLeft="@+id/thtf"
+                            android:layout_below="@+id/thtf"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/ftth"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignLeft="@+id/ftt"
+                            android:layout_below="@+id/ftt"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/ftf"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignLeft="@+id/ftth"
+                            android:layout_below="@+id/ftth"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/ftfi"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignLeft="@+id/ftf"
+                            android:layout_below="@+id/ftf"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/fitth"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_below="@+id/fitt"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/fitfi"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_below="@+id/fitf"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/ots"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/otfi"
+                            android:background="@drawable/buttom_style" />
+
+                        <View
+                            android:id="@+id/view1"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/ots"
+                            android:layout_marginTop="41dp"
+                            android:background="@color/gray" />
+
+                        <ImageButton
+                            android:id="@+id/tto"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/view1"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/ttth"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/ttt"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/ttfi"
+                            android:background="@drawable/nouse" />
+
+                        <View
+                            android:id="@+id/View01"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/imageView7"
+                            android:layout_marginTop="41dp"
+                            android:background="@color/gray" />
+
+                        <ImageButton
+                            android:id="@+id/thto"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/View01"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/thtfi"
+                            android:background="@drawable/nouse" />
+
+                        <View
+                            android:id="@+id/View02"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/imageView1"
+                            android:layout_marginTop="41dp"
+                            android:background="@color/gray" />
+
+                        <ImageButton
+                            android:id="@+id/fto"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/View02"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/ftt"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/fto"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/ftfi"
+                            android:background="@drawable/nouse" />
+
+                        <View
+                            android:id="@+id/View03"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/imageView2"
+                            android:layout_marginTop="41dp"
+                            android:background="@color/gray" />
+
+                        <ImageButton
+                            android:id="@+id/fito"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/View03"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/fitt"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_below="@+id/fito"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/fitfi"
+                            android:background="@drawable/nouse" />
+
+                        <ImageButton
+                            android:id="@+id/fitf"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/fitth"
+                            android:background="@drawable/buttom_style" />
+
+                        <View
+                            android:id="@+id/View04"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/imageView3"
+                            android:layout_marginTop="41dp"
+                            android:background="@color/gray" />
+
+                        <ImageButton
+                            android:id="@+id/sto"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignTop="@+id/View04"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/stt"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/sto"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageButton
+                            android:id="@+id/stth"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/stt"
+                            android:background="@drawable/buttom_style" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/stth"
+                            android:background="@drawable/nouse" />
+
+                        <View
+                            android:id="@+id/View05"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="41dp"
+                            android:background="@color/gray" />
+
+                        <ImageButton
+                            android:id="@+id/oto"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/View05"
+                            android:background="@drawable/buttom_style" />
+
+                        <TextView
+                            android:id="@+id/otobtl"
+                            android:layout_width="45sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/oto2"
+                            android:layout_below="@+id/oto2"
+                            android:layout_marginLeft="17dp"
+                            android:text="近海警備"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/oto2"
+                            android:layout_width="125sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/fitt"
+                            android:layout_alignTop="@+id/oto"
+                            android:layout_marginLeft="19dp"
+                            android:layout_marginTop="8dp"
+                            android:text="1.鎮守府正面海域"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/ottbtl"
+                            android:layout_width="72sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/ott2"
+                            android:layout_below="@+id/ott2"
+                            android:layout_marginLeft="17dp"
+                            android:text="南西諸島沖警備"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/ott2"
+                            android:layout_width="95sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/oto2"
+                            android:layout_alignTop="@+id/ott"
+                            android:layout_marginTop="8dp"
+                            android:text="2.南西諸島沖"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/otthbtl"
+                            android:layout_width="60sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/otth2"
+                            android:layout_below="@+id/otth2"
+                            android:layout_marginLeft="17dp"
+                            android:text="海上護衛作戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/otth2"
+                            android:layout_width="125sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/ott2"
+                            android:layout_alignTop="@+id/otth"
+                            android:layout_marginTop="8dp"
+                            android:text="3.製油所地帯沿岸"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="19sp"
+                            android:layout_alignBaseline="@+id/otf2"
+                            android:layout_alignBottom="@+id/otf2"
+                            android:layout_alignLeft="@+id/textView1"
+                            android:text="\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="19sp"
+                            android:layout_alignBaseline="@+id/ott2"
+                            android:layout_alignBottom="@+id/ott2"
+                            android:layout_alignLeft="@+id/textView2"
+                            android:text="\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="19sp"
+                            android:layout_alignBaseline="@+id/oto2"
+                            android:layout_alignBottom="@+id/oto2"
+                            android:layout_marginLeft="56dp"
+                            android:layout_toRightOf="@+id/oto2"
+                            android:text="\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/otfbtl"
+                            android:layout_width="50sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/otf2"
+                            android:layout_below="@+id/otf2"
+                            android:layout_marginLeft="17dp"
+                            android:text="南1号作戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/otf2"
+                            android:layout_width="125sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/otth2"
+                            android:layout_alignTop="@+id/otf"
+                            android:layout_marginTop="8dp"
+                            android:text="4.南西諸島防衛線"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="19sp"
+                            android:layout_alignBottom="@+id/otth2"
+                            android:layout_alignLeft="@+id/textView2"
+                            android:text="\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="19sp"
+                            android:layout_above="@+id/otfibtl"
+                            android:layout_alignLeft="@+id/textView2"
+                            android:text="\u2606\u2606\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/otfibtl"
+                            android:layout_width="90sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/otfi2"
+                            android:layout_below="@+id/otfi2"
+                            android:layout_marginLeft="17dp"
+                            android:text="鎮守府近海対潜哨戒"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/otfi2"
+                            android:layout_width="95sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/otf2"
+                            android:layout_alignTop="@+id/otfi"
+                            android:layout_marginTop="8dp"
+                            android:text="5.鎮守府近海"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="19sp"
+                            android:layout_above="@+id/otsbtl"
+                            android:layout_alignLeft="@+id/textView2"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/otsbtl"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/ots2"
+                            android:layout_below="@+id/ots2"
+                            android:layout_marginLeft="17dp"
+                            android:text="輸送船団護衛作戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/ots2"
+                            android:layout_width="125sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/otfi2"
+                            android:layout_alignTop="@+id/ots"
+                            android:layout_marginTop="8dp"
+                            android:text="6.鎮守府近海航路"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="19sp"
+                            android:layout_above="@+id/ttobtl"
+                            android:layout_alignLeft="@+id/textView2"
+                            android:text="\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/ttobtl"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/tto2"
+                            android:layout_below="@+id/tto2"
+                            android:layout_marginLeft="17dp"
+                            android:text="カ号迎撃戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/tto2"
+                            android:layout_width="125sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/ots2"
+                            android:layout_alignTop="@+id/tto"
+                            android:layout_marginTop="8dp"
+                            android:text="1.カムラン半島"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="19sp"
+                            android:layout_above="@+id/tttbtl"
+                            android:layout_alignLeft="@+id/textView2"
+                            android:text="\u2606\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tttbtl"
+                            android:layout_width="55sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/ttt2"
+                            android:layout_below="@+id/ttt2"
+                            android:layout_marginLeft="17dp"
+                            android:text="柳輸送作戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/ttt2"
+                            android:layout_width="95sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/tto2"
+                            android:layout_alignTop="@+id/ttt"
+                            android:layout_marginTop="8dp"
+                            android:text="2.バシー島沖"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="19sp"
+                            android:layout_above="@+id/ttthbtl"
+                            android:layout_alignLeft="@+id/textView2"
+                            android:text="\u2606\u2606\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/ttthbtl"
+                            android:layout_width="45sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/ttth2"
+                            android:layout_below="@+id/ttth2"
+                            android:layout_marginLeft="17dp"
+                            android:text="01号作戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/ttth2"
+                            android:layout_width="140sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/ttt2"
+                            android:layout_alignTop="@+id/ttth"
+                            android:layout_marginTop="8dp"
+                            android:text="3.東部オリョール海"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="19sp"
+                            android:layout_above="@+id/ttfbtl"
+                            android:layout_alignLeft="@+id/textView2"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/ttfbtl"
+                            android:layout_width="65sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/ttf2"
+                            android:layout_below="@+id/ttf2"
+                            android:layout_marginLeft="17dp"
+                            android:text="あ号艦隊決戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/ttf2"
+                            android:layout_width="95sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/ttth2"
+                            android:layout_alignTop="@+id/ttf"
+                            android:layout_marginTop="8dp"
+                            android:text="4.沖ノ島海域"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/ttfibtl"
+                            android:layout_width="85sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/ttfi2"
+                            android:layout_below="@+id/ttfi2"
+                            android:layout_marginLeft="17dp"
+                            android:text="沖ノ島沖戦闘哨戒"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/ttfi2"
+                            android:layout_width="80sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/ttf2"
+                            android:layout_alignTop="@+id/ttfi"
+                            android:layout_marginTop="8dp"
+                            android:text="5.沖ノ島沖"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="38sp"
+                            android:layout_alignBottom="@+id/ttfibtl"
+                            android:layout_alignLeft="@+id/textView1"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606\n\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="19sp"
+                            android:layout_above="@+id/thtobtl"
+                            android:layout_alignLeft="@+id/textView2"
+                            android:text="\u2606\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/thtobtl"
+                            android:layout_width="75sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/thto2"
+                            android:layout_below="@+id/thto2"
+                            android:layout_marginLeft="17dp"
+                            android:text="モーレイ海哨戒"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/thto2"
+                            android:layout_width="95sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/ttfi2"
+                            android:layout_alignTop="@+id/thto"
+                            android:layout_marginTop="8dp"
+                            android:text="1.モーレイ海"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="19sp"
+                            android:layout_above="@+id/thttbtl"
+                            android:layout_alignLeft="@+id/textView2"
+                            android:text="\u2606\u2606\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/thttbtl"
+                            android:layout_width="75sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/thtt2"
+                            android:layout_below="@+id/thtt2"
+                            android:layout_marginLeft="17dp"
+                            android:text="キス島撤退作戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/thtt2"
+                            android:layout_width="80sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/thto2"
+                            android:layout_alignTop="@+id/thtt"
+                            android:layout_marginTop="8dp"
+                            android:text="2.キス島沖"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/thtthbtl"
+                            android:layout_width="120sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/thtth2"
+                            android:layout_below="@+id/thtth2"
+                            android:layout_marginLeft="17dp"
+                            android:text="アルフォンシーノ方面進出"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/thtth2"
+                            android:layout_width="170sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/thtt2"
+                            android:layout_alignTop="@+id/thtth"
+                            android:layout_marginTop="8dp"
+                            android:text="3.アルフォンシーノ方面"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="38sp"
+                            android:layout_alignBottom="@+id/thtthbtl"
+                            android:layout_alignLeft="@+id/textView4"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606\n\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/thtfbtl"
+                            android:layout_width="85sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/thtf2"
+                            android:layout_below="@+id/thtf2"
+                            android:layout_marginLeft="17dp"
+                            android:text="北方海域艦隊決戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/thtf2"
+                            android:layout_width="110sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/thtth2"
+                            android:layout_alignTop="@+id/thtf"
+                            android:layout_marginTop="8dp"
+                            android:text="4.北方海域全域"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="38sp"
+                            android:layout_alignBottom="@+id/thtfbtl"
+                            android:layout_alignLeft="@+id/textView4"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606\n\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/thtfibtl"
+                            android:layout_width="85sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/thtfi2"
+                            android:layout_below="@+id/thtfi2"
+                            android:layout_marginLeft="17dp"
+                            android:text="北方海域戦闘哨戒"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/thtfi2"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/thtf2"
+                            android:layout_alignTop="@+id/thtfi"
+                            android:layout_marginTop="8dp"
+                            android:text="5.北方AL海域"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="38sp"
+                            android:layout_alignBottom="@+id/thtfibtl"
+                            android:layout_alignLeft="@+id/textView4"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606\n\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="19sp"
+                            android:layout_above="@+id/ftobtl"
+                            android:layout_alignLeft="@+id/textView2"
+                            android:text="\u2606\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/ftobtl"
+                            android:layout_width="85sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/fto2"
+                            android:layout_below="@+id/fto2"
+                            android:layout_marginLeft="17dp"
+                            android:text="ジャム島攻略作戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/fto2"
+                            android:layout_width="140sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/thtfi2"
+                            android:layout_alignTop="@+id/fto"
+                            android:layout_marginTop="8dp"
+                            android:text="1.ジャム島攻略作戦"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="19sp"
+                            android:layout_above="@+id/fttbtl"
+                            android:layout_alignLeft="@+id/textView2"
+                            android:text="\u2606\u2606\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/fttbtl"
+                            android:layout_width="75sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/ftt2"
+                            android:layout_below="@+id/ftt2"
+                            android:layout_marginLeft="17dp"
+                            android:text="カレー洋制圧戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/ftt2"
+                            android:layout_width="130sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/fto2"
+                            android:layout_alignTop="@+id/ftt"
+                            android:layout_marginTop="8dp"
+                            android:text="2.カレー洋制圧戦"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="19sp"
+                            android:layout_above="@+id/ftthbtl"
+                            android:layout_alignLeft="@+id/textView2"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/ftthbtl"
+                            android:layout_width="75sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/ftth2"
+                            android:layout_below="@+id/ftth2"
+                            android:layout_marginLeft="17dp"
+                            android:text="リランカ島空襲"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/ftth2"
+                            android:layout_width="125sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/ftt2"
+                            android:layout_alignTop="@+id/ftth"
+                            android:layout_marginTop="8dp"
+                            android:text="3.リランカ島空襲"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/ftfbtl"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/ftf2"
+                            android:layout_below="@+id/ftf2"
+                            android:layout_marginLeft="17dp"
+                            android:text="カスガダマ沖海戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/ftf2"
+                            android:layout_width="140sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/ftth2"
+                            android:layout_alignTop="@+id/ftf"
+                            android:layout_marginTop="8dp"
+                            android:text="4.カスガダマ沖海戦"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="38sp"
+                            android:layout_alignBottom="@+id/ftfbtl"
+                            android:layout_alignLeft="@+id/textView4"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606\n\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/ftfibtl"
+                            android:layout_width="100sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/ftfi2"
+                            android:layout_below="@+id/ftfi2"
+                            android:layout_marginLeft="17dp"
+                            android:text="深海東洋艦隊漸減作戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/ftfi2"
+                            android:layout_width="170sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/ftf2"
+                            android:layout_alignTop="@+id/ftfi"
+                            android:layout_marginTop="8dp"
+                            android:text="5.カレー洋リランカ島沖"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="38sp"
+                            android:layout_alignBottom="@+id/ftfibtl"
+                            android:layout_alignLeft="@+id/textView4"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606\n\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/fitobtl"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/fito2"
+                            android:layout_below="@+id/fito2"
+                            android:layout_marginLeft="17dp"
+                            android:text="南方海域進出作戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/fito2"
+                            android:layout_width="110sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/ftf2"
+                            android:layout_alignTop="@+id/fito"
+                            android:layout_marginTop="8dp"
+                            android:text="1.南方海域前面"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="38sp"
+                            android:layout_alignBottom="@+id/fitobtl"
+                            android:layout_alignLeft="@+id/textView4"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606\n\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/fittbtl"
+                            android:layout_width="75sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/fitt2"
+                            android:layout_below="@+id/fitt2"
+                            android:layout_marginLeft="17dp"
+                            android:text="珊瑚諸島沖海戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/fitt2"
+                            android:layout_width="95sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/fito2"
+                            android:layout_alignTop="@+id/fitt"
+                            android:layout_marginTop="8dp"
+                            android:text="2.珊瑚諸島沖"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="38sp"
+                            android:layout_alignBottom="@+id/fittbtl"
+                            android:layout_alignLeft="@+id/textView4"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606\n\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/fitthbtl"
+                            android:layout_width="100sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/fitth2"
+                            android:layout_below="@+id/fitth2"
+                            android:layout_marginLeft="17dp"
+                            android:text="第一次サーモン沖海戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/fitth2"
+                            android:layout_width="110sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/fitt2"
+                            android:layout_alignTop="@+id/fitth"
+                            android:layout_marginTop="8dp"
+                            android:text="3.サブ島沖海域"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="38sp"
+                            android:layout_alignBottom="@+id/fitthbtl"
+                            android:layout_alignLeft="@+id/textView4"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606\n\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/fitfbtl"
+                            android:layout_width="45sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/fitf2"
+                            android:layout_below="@+id/fitf2"
+                            android:layout_marginLeft="17dp"
+                            android:text="東京急行"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/fitf2"
+                            android:layout_width="110sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/fitth2"
+                            android:layout_alignTop="@+id/fitf"
+                            android:layout_marginTop="8dp"
+                            android:text="4.サーモン海域"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="38sp"
+                            android:layout_alignBottom="@+id/fitfbtl"
+                            android:layout_alignLeft="@+id/textView4"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606\n\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/fitfibtl"
+                            android:layout_width="95sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/fitfi2"
+                            android:layout_below="@+id/fitfi2"
+                            android:layout_marginLeft="17dp"
+                            android:text="第二次サーモン海戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/fitfi2"
+                            android:layout_width="140sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/fitf2"
+                            android:layout_alignTop="@+id/fitfi"
+                            android:layout_marginTop="8dp"
+                            android:text="5.サーモン海域北方"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="38sp"
+                            android:layout_alignBottom="@+id/fitfibtl"
+                            android:layout_alignLeft="@+id/textView4"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606\n\u2606\u2606\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/stobtl"
+                            android:layout_width="95sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/sto2"
+                            android:layout_below="@+id/sto2"
+                            android:layout_marginLeft="17dp"
+                            android:text="潜水艦作戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/sto2"
+                            android:layout_width="140sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/fitfi2"
+                            android:layout_alignTop="@+id/sto"
+                            android:layout_marginTop="8dp"
+                            android:text="1.中部海域哨戒線"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="38sp"
+                            android:layout_alignBottom="@+id/stobtl"
+                            android:layout_alignLeft="@+id/textView4"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606\n\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/sttbtl"
+                            android:layout_width="95sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/stt2"
+                            android:layout_below="@+id/stt2"
+                            android:layout_marginLeft="17dp"
+                            android:text="MS諸島防衛戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/stt2"
+                            android:layout_width="140sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/sto2"
+                            android:layout_alignTop="@+id/stt"
+                            android:layout_marginTop="8dp"
+                            android:text="2.MS諸島沖"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="38sp"
+                            android:layout_alignBottom="@+id/sttbtl"
+                            android:layout_alignLeft="@+id/textView4"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606\n\u2606\u2606\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/stthbtl"
+                            android:layout_width="95sp"
+                            android:layout_height="15sp"
+                            android:layout_alignLeft="@+id/stth2"
+                            android:layout_below="@+id/stth2"
+                            android:layout_marginLeft="17dp"
+                            android:text="K作戦"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/stth2"
+                            android:layout_width="140sp"
+                            android:layout_height="20sp"
+                            android:layout_alignLeft="@+id/stt2"
+                            android:layout_alignTop="@+id/stth"
+                            android:layout_marginTop="8dp"
+                            android:text="3.グアノ環礁沖海域"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="38sp"
+                            android:layout_alignBottom="@+id/stthbtl"
+                            android:layout_alignLeft="@+id/textView4"
+                            android:text="\u2606\u2606\u2606\u2606\u2606\u2606\n\u2606"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="110sp"
+                            android:layout_height="25sp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="130dp"
+                            android:layout_marginTop="8dp"
+                            android:text="鎮守府海域"
+                            android:textColor="@color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="120sp"
+                            android:layout_height="25sp"
+                            android:layout_below="@+id/ots"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="8dp"
+                            android:text="南西諸島海域"
+                            android:textColor="@color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="90sp"
+                            android:layout_height="25sp"
+                            android:layout_below="@+id/imageView7"
+                            android:layout_marginLeft="140dp"
+                            android:layout_marginTop="8dp"
+                            android:text="北方海域"
+                            android:textColor="@color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="90sp"
+                            android:layout_height="25sp"
+                            android:layout_below="@+id/imageView1"
+                            android:layout_marginLeft="140dp"
+                            android:layout_marginTop="8dp"
+                            android:text="西方海域"
+                            android:textColor="@color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="90sp"
+                            android:layout_height="25sp"
+                            android:layout_below="@+id/imageView2"
+                            android:layout_marginLeft="140dp"
+                            android:layout_marginTop="8dp"
+                            android:text="南方海域"
+                            android:textColor="@color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="90sp"
+                            android:layout_height="25sp"
+                            android:layout_below="@+id/imageView3"
+                            android:layout_marginLeft="140dp"
+                            android:layout_marginTop="8dp"
+                            android:text="中部海域"
+                            android:textColor="@color/black"
+                            android:textSize="20dp" />
+
+                        <View
+                            android:id="@+id/View06"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignBottom="@+id/ots"
+                            android:layout_alignParentLeft="true"
+                            android:background="@color/gray" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/imageView7"
+                            android:background="@color/gray" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/imageView1"
+                            android:background="@color/gray" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/imageView2"
+                            android:background="@color/gray" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignBottom="@+id/imageView3"
+                            android:layout_alignParentLeft="true"
+                            android:background="@color/gray" />
+                    </RelativeLayout>
+                </ScrollView>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+</LinearLayout>

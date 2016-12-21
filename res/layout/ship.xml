@@ -1,0 +1,314 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:slidingWidth="http://schemas.android.com/apk/res/com.android.wikiforkancolle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" >
+
+            <RelativeLayout
+                android:id="@+id/ship"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/include1"
+                android:background="@drawable/ship" >
+
+                <ImageButton
+                    android:id="@+id/search"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_above="@+id/imageView1"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/search3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/include1"
+                    android:gravity="center"
+                    android:text="舰船"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+            </RelativeLayout>
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/ship" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" >
+
+                    <ImageButton
+                        android:id="@+id/CL"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/DD"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/DD"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/CA"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/CL"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/CLT"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/CA"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/BB"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/CLT"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/CV"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/BB"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/CVL"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/CV"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/AV"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/CVL"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/SS"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/AV"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/AS"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/SS"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/LHA"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/AS"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/Prac"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/LHA"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/Fix"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/Prac"
+                        android:background="@drawable/buttom_style" />
+                    
+                    <ImageButton
+                        android:id="@+id/Support"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/Fix"
+                        android:background="@drawable/buttom_style" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="70sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/DD"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginLeft="32dp"
+                        android:text="駆逐艦 "
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="85sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/CL"
+                        android:layout_alignLeft="@+id/textView1"
+                        android:layout_marginBottom="9dp"
+                        android:text="軽巡洋艦"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="200sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/CA"
+                        android:layout_alignLeft="@+id/textView1"
+                        android:layout_marginBottom="9dp"
+                        android:text="重巡洋艦/航空巡洋艦"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="125sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/CLT"
+                        android:layout_alignLeft="@+id/textView1"
+                        android:layout_marginBottom="9dp"
+                        android:text="重雷装巡洋艦"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="200sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/BB"
+                        android:layout_alignLeft="@+id/textView1"
+                        android:layout_marginBottom="9dp"
+                        android:text="戦艦/航空戦艦"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="200sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/CV"
+                        android:layout_alignLeft="@+id/textView1"
+                        android:layout_marginBottom="9dp"
+                        android:text="正規空母/装甲空母"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="85sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/CVL"
+                        android:layout_alignLeft="@+id/textView1"
+                        android:layout_marginBottom="9dp"
+                        android:text="軽空母 "
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="105sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/AV"
+                        android:layout_alignLeft="@+id/textView1"
+                        android:layout_marginBottom="9dp"
+                        android:text="水上機母艦"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="200sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/SS"
+                        android:layout_alignLeft="@+id/textView1"
+                        android:layout_marginBottom="9dp"
+                        android:text="潜水艦/潜水空母"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="85sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/AS"
+                        android:layout_alignLeft="@+id/textView1"
+                        android:layout_marginBottom="9dp"
+                        android:text="潜水母艦"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="105sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/LHA"
+                        android:layout_alignLeft="@+id/textView1"
+                        android:layout_marginBottom="9dp"
+                        android:text="強襲揚陸艦"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="105sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/Prac"
+                        android:layout_alignLeft="@+id/textView1"
+                        android:layout_marginBottom="9dp"
+                        android:text="練習巡洋艦 "
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="85sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/Fix"
+                        android:layout_alignLeft="@+id/textView1"
+                        android:layout_marginBottom="9dp"
+                        android:text="工作艦 "
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+                    
+                    <TextView
+                        android:layout_width="85sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/Support"
+                        android:layout_alignLeft="@+id/textView1"
+                        android:layout_marginBottom="9dp"
+                        android:text="補給艦"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

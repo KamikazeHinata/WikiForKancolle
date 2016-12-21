@@ -1,0 +1,190 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:slidingWidth="http://schemas.android.com/apk/res/com.android.wikiforkancolle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" >
+
+            <LinearLayout
+                android:id="@+id/assign"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/include1"
+                android:background="@color/orange" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/include1"
+                    android:gravity="center"
+                    android:text="任务"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/assign" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" >
+
+                    <ImageButton
+                        android:id="@+id/make"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/go"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_below="@+id/make"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/exer"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_below="@+id/go"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/expe"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_below="@+id/exer"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/sup"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_below="@+id/expe"
+                        android:background="@drawable/buttom_style" />
+
+                    
+
+                    <ImageButton
+                        android:id="@+id/fcry"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_below="@+id/sup"
+                        android:background="@drawable/buttom_style" />
+
+                    <ImageButton
+                        android:id="@+id/chge"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_below="@+id/fcry"
+                        android:background="@drawable/buttom_style" />
+                    
+                    <ImageButton
+                        android:id="@+id/wedd"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:layout_below="@+id/chge"
+                        android:background="@drawable/buttom_style" />
+
+                    <TextView
+                        android:layout_width="55sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/go"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginLeft="22dp"
+                        android:text="出撃"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="55sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/make"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginLeft="22dp"
+                        android:text="編成"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="55sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/exer"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginLeft="22dp"
+                        android:text="演習"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="55sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/expe"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginLeft="22dp"
+                        android:text="遠征"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/sup"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginLeft="22dp"
+                        android:text="補給/入渠"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="55sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/fcry"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginLeft="22dp"
+                        android:text="工廠"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="55sp"
+                        android:layout_height="25sp"
+                        android:layout_alignBottom="@+id/chge"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginLeft="22dp"
+                        android:text="改装 "
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/wedd"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginLeft="22dp"
+                        android:text="結婚式相關 "
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

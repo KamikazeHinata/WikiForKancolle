@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/id_tab_map"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/id_map_img"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="#00000000"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/mapicon2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_ship"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/id_ship_img"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="#00000000"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/shipicon1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_equip"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/id_equip_img"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="#00000000"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/equipicon1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_res"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/id_res_img"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="#00000000"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/resicon1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_assign"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/id_assign_img"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="#00000000"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/assignicon1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_more"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/id_more_img"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="#00000000"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/more1" />
+    </LinearLayout>
+
+</LinearLayout>

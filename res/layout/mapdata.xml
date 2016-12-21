@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1"
+        android:background="@drawable/map" >
+
+        <TextView
+            android:id="@+id/mapIdtext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/include1"
+            android:gravity="center"
+            android:text="1-1"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_drop"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/No_map"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp" >
+
+        <Button
+            android:id="@+id/bt_drop"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/choice"
+            android:text="掉落"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_enemy"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_alignBaseline="@id/id_drop"
+        android:layout_alignBottom="@id/id_drop"
+        android:layout_below="@+id/No_map"
+        android:layout_marginTop="7dp"
+        android:layout_toLeftOf="@id/id_drop" >
+
+        <Button
+            android:id="@+id/bt_enemy"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/choice"
+            android:text="敌舰队"
+            android:textSize="11dp" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_guide"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_alignBaseline="@id/id_drop"
+        android:layout_alignBottom="@id/id_drop"
+        android:layout_below="@+id/No_map"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@id/id_drop" >
+
+        <Button
+            android:id="@+id/bt_guide"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/choice"
+            android:text="带路"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/No_map"
+        android:layout_width="300sp"
+        android:layout_height="160sp"
+        android:layout_below="@+id/map"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/map1_1" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/No_map"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/button_back" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_viewpager_mapdata"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/id_drop" >
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

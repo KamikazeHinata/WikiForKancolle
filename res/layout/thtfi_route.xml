@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" >
+    
+              <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="35dp"
+                android:background="@color/gray" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="30sp"
+                android:layout_height="20sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:text="出击"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view1"
+                android:layout_marginTop="87dp"
+                android:background="@color/gray" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="300sp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/view1"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@+id/textView1"
+                android:text="驱逐4只以上B点概率提升；包含重巡、航巡3只以上、战舰、空母系、雷巡固定A点"
+                android:textColor="@color/gray"
+                android:textSize="15dp" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view2"
+                android:layout_marginTop="35dp"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view3"
+                android:layout_marginTop="85dp"
+                android:background="@color/gray" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="30sp"
+                android:layout_height="20sp"
+                android:layout_below="@+id/view2"
+                android:layout_marginTop="8dp"
+                android:layout_alignLeft="@+id/textView1"
+                android:text="A点"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="300sp"
+                android:layout_height="60sp"
+                android:layout_alignTop="@+id/view3"
+                android:layout_alignLeft="@+id/textView3"
+                 android:layout_marginTop="15dp"
+                android:text="潜水舰4只以上、战舰、空母系5只以上固定H点；轻巡1只以上且驱逐1只以下固定D点；轻巡1只以上且驱逐2只以上固定E点" 
+                android:textColor="@color/gray"
+                android:textSize="15dp" />
+            
+            <View
+                android:id="@+id/view5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view4"
+                android:layout_marginTop="35dp"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view5"
+                android:layout_marginTop="85dp"
+                android:background="@color/gray" />
+            
+             <TextView
+                android:id="@+id/textView4"
+                android:layout_width="30sp"
+                android:layout_height="20sp"
+                android:layout_below="@+id/view4"
+                android:layout_marginTop="8dp"
+                android:layout_alignLeft="@+id/textView1"
+                android:text="B点"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="300sp"
+                android:layout_height="60sp"
+                android:layout_alignTop="@+id/view5"
+                android:layout_alignLeft="@+id/textView3"
+                 android:layout_marginTop="15dp"
+                android:text="空母1只以上，驱逐和潜水舰1只以下固定E点；轻巡2只以下、只包含驱逐、轻巡、水母时固定G点"
+                android:textColor="@color/gray"
+                android:textSize="15dp" />
+            
+            <View
+                android:id="@+id/view7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view6"
+                android:layout_marginTop="35dp"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view8"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view7"
+                android:layout_marginTop="85dp"
+                android:background="@color/gray" />
+            
+             <TextView
+                android:id="@+id/textView5"
+                android:layout_width="30sp"
+                android:layout_height="20sp"
+                android:layout_below="@+id/view6"
+                android:layout_marginTop="8dp"
+                android:layout_alignLeft="@+id/textView1"
+                android:text="F点"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="300sp"
+                android:layout_height="40sp"
+                android:layout_alignTop="@+id/view7"
+                android:layout_alignLeft="@+id/textView3"
+                 android:layout_marginTop="25dp"
+                android:text="战舰、空母系4只以上固定I点，索敌值50以上固定K点"
+                android:textColor="@color/gray"
+                android:textSize="15dp" />
+            
+            <View
+                android:id="@+id/view9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view8"
+                android:layout_marginTop="35dp"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view10"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view9"
+                android:layout_marginTop="85dp"
+                android:background="@color/gray" />
+            
+             <TextView
+                android:id="@+id/textView6"
+                android:layout_width="30sp"
+                android:layout_height="20sp"
+                android:layout_below="@+id/view8"
+                android:layout_marginTop="8dp"
+                android:layout_alignLeft="@+id/textView1"
+                android:text="G点"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="300sp"
+                android:layout_height="20sp"
+                android:layout_alignTop="@+id/view9"
+                android:layout_alignLeft="@+id/textView3"
+                 android:layout_marginTop="15dp"
+                android:text="索敌值大于36固定K点"
+                android:textColor="@color/gray"
+                android:textSize="15dp" />
+            
+            
+            
+            </RelativeLayout>
+
+    </ScrollView>

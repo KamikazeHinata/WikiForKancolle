@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  
+package 包表示整个Java应用程序的主要包名，而且是一个默认的程序名称
+android:versionCode="1" 表示该工程所生成的apk的版本号，1开始2、3、4，不断地升级
+android:versionName="1.0" 表示版本的一个名称，1.0开始2.0类似后推
+android:installLocation="auto" 自动寻找安装的地方，ROM或SD卡（默认的属性）
+android:installLocation="internalOnly" 只能安装在ROM上
+android:installLocation="preferExternal" 直接安装在SD卡
+ -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.wikiforkancolle"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+<!-- 
+android:icon="@drawable/ic_launcher" 表示应用程序的一个图片，LOGO图片
+android:label="@string/app_name" 表示应用的工程的文字说明
+ -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+<!-- 
+android:name 表示整个应用主程序的名称
+intent-filter 意图过滤器：用来过滤用户的一些动作和操作
+android.intent.action.MAIN 表示当前的程序是整个工程的入口程序
+category android:name 表示决定应用程序是否在程序列表中显示
+-->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+<!-- 
+    表示添加用户的授权，授权访问网络等。
+    <uses-permission android:name="">
+     -->
+
+    
+</manifest>

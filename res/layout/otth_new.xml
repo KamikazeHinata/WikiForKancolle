@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" >
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="35dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view1"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view2"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view3"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view4"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view5"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view6"
+            android:layout_marginTop="35dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view7"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view8"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view10"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view9"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view11"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view10"
+            android:layout_marginTop="35dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view12"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view11"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view13"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view12"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view14"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view13"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view15"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view14"
+            android:layout_marginTop="35dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view16"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view15"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view17"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view16"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view18"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view17"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view19"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view18"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/view20"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view19"
+            android:layout_marginTop="85dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/vv1"
+            android:layout_width="1dp"
+            android:layout_height="430dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/view1"
+            android:layout_marginLeft="100dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/vv2"
+            android:layout_width="1dp"
+            android:layout_height="255dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/view7"
+            android:layout_marginLeft="100dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/vv3"
+            android:layout_width="1dp"
+            android:layout_height="255dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/view11"
+            android:layout_marginLeft="100dp"
+            android:background="@color/gray" />
+
+        <View
+            android:id="@+id/vv4"
+            android:layout_width="1dp"
+            android:layout_height="430dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/view15"
+            android:layout_marginLeft="100dp"
+            android:background="@color/gray" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="30sp"
+            android:layout_height="20sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:text="A点"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="30sp"
+            android:layout_height="20sp"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/view6"
+            android:layout_marginTop="8dp"
+            android:text="E点"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="30sp"
+            android:layout_height="20sp"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/view10"
+            android:layout_marginTop="8dp"
+            android:text="F点"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="30sp"
+            android:layout_height="20sp"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/view14"
+            android:layout_marginTop="8dp"
+            android:text="G点"
+            android:textColor="@color/zred"
+            android:textSize="15dp" />
+        <!-- ************************************************************************************************ -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_below="@+id/view1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view2"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="白雪 初雪 深雪 磯波 綾波 敷波 睦月 如月 皐月 文月 長月 菊月 三日月 望月 朧 曙 潮 曉 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 涼風 大潮 滿朝 荒潮 霰 霞 不知火 黑潮"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="輕巡"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view3"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="多摩 木曾 長良 五十鈴 名取 由良 川內 神通 那珂"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view3"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重巡"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view4"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="水母及特殊"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view5"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空母"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view4"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view3"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="青葉"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view5"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view4"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="千歲 千代田"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view6"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view5"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="鳳翔 隼鷹 祥鳳"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view7"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐	"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view8"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="輕巡"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view9"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="水母及特殊"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view11"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view12"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="輕巡"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view14"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view13"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重巡"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view16"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view15"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驅逐"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view17"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view16"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="輕巡"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view18"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view17"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重巡"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view19"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view18"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="水母及特殊"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view20"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/vv1"
+            android:layout_alignTop="@+id/view19"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空母"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view8"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view7"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="初雪 磯波 敷波 睦月 如月 皐月 文月 長月 菊月 三日月 望月 朧 曙 潮 曉 響 雷 電 初春 若葉 初霜 白露 時雨 村雨 夕立 涼風 大潮 滿朝 荒潮 霰 不知火 黑潮"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view9"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view8"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="多摩 木曾 長良 五十鈴 名取 由良 川內 神通 那珂"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view10"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view9"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="千歲 千代田"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view12"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view11"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="白雪 初雪 深雪 磯波 敷波 睦月 如月 皐月 文月 長月 菊月 三日月 望月 朧 曙 潮 曉 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 涼風 大潮 滿朝 荒潮 霰 霞 不知火 黑潮"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view13"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view12"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="多摩 木曾 長良 五十鈴 名取 由良 川內 神通 那珂"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="夕張"
+                android:textColor="@color/ayared"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view14"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view13"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="千歲 千代田"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view16"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view15"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="吹雪 白雪 初雪 深雪 叢雲 磯波 綾波 敷波 睦月 如月 皐月 文月 菊月 三日月 望月 朧 漣 潮 曉 響 雷 電 初春 子日 若葉 初霜 白露 時雨 村雨 夕立 五月雨 涼風 大潮 滿朝 霰 霞 不知火 黑潮"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view17"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view16"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="北上 天龍 龍田 球磨 多摩 木曾 長良 五十鈴 名取 由良 川內 神通 那珂"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="夕張"
+                android:textColor="@color/ayared"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view18"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view17"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="古鷹 加古 青葉 衣笠"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view19"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view18"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="千歲 千代田"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view20"
+            android:layout_alignLeft="@+id/vv1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view19"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="鳳翔"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

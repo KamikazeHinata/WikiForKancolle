@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wiki for Kancolle</string>
+    <string name="sea">海域</string>
+    <string name="action_settings">Settings</string>
+    <string name="gray">gray</string>
+    <string name="white">whiht</string>
+    <string name="settings">設置</string>
+
+</resources>

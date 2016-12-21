@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/assign"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1"
+        android:background="@color/orange" >
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="結婚式相關"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/button_back" />
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/assign"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" >
+
+            <LinearLayout
+                android:id="@+id/tp1"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="@color/sgreen"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一次性任务"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+                
+            </LinearLayout>
+          
+            <ImageButton
+                android:id="@+id/wf01"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp1"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/wc01"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/wf01"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/wa01"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/wc01"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/wb01"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/wa01"
+                android:background="@drawable/buttom_style" />
+            
+             <ImageButton
+                android:id="@+id/wa02"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/wb01"
+                android:background="@drawable/buttom_style" />
+             
+              <ImageButton
+                android:id="@+id/wb02"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/wa02"
+                android:background="@drawable/buttom_style" />
+              
+              <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/wf01"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="WF01	式の準備！(その壱)"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+
+              <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/wc01"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="WC01	式の準備！(その弐)"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+           <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/wa01"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="WA01	式の準備！(その参)"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout>  
+              
+           <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/wb01"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="WB01	式の準備！(最終)"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout>  
+
+           <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/wa02"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="WA02	新たなる旅立ち！"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+
+           <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/wb02"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="WB02	二人でする初めての任務！"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+           
+            </RelativeLayout>
+    </ScrollView>
+ </RelativeLayout>

@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/epdt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1"
+        android:background="@drawable/equip" >
+
+        <TextView
+            android:id="@+id/equipname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="装备名称"
+            android:textColor="@color/white"
+            android:textSize="26dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/button_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/epdt"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" >
+
+            <ImageButton
+                android:id="@+id/lihui"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ic_launcher" />
+
+            <LinearLayout
+                android:id="@+id/data"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/lihui"
+                android:layout_marginTop="8dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tujianbianhaozuo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="装备数据"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/data"
+                android:layout_marginTop="40dp"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view1"
+                android:layout_marginTop="40dp"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view2"
+                android:layout_marginTop="40dp"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view3"
+                android:layout_marginTop="40dp"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view4"
+                android:layout_marginTop="40dp"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="1dp"
+                android:layout_height="205dp"
+                android:layout_below="@+id/data"
+                android:layout_centerHorizontal="true"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view7"
+                android:layout_width="1dp"
+                android:layout_height="205dp"
+                android:layout_below="@+id/data"
+                android:layout_marginLeft="70dp"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view8"
+                android:layout_width="1dp"
+                android:layout_height="205dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/data"
+                android:layout_marginLeft="250dp"
+                android:background="@color/gray" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view1"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="17dp"
+                android:text="火力"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view2"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="17dp"
+                android:text="爆装"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view3"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="17dp"
+                android:text="对潜"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view4"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="17dp"
+                android:text="命中"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view5"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="17dp"
+                android:text="射程"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="17dp"
+                android:layout_toRightOf="@+id/view6"
+                android:text="雷装"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view2"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="17dp"
+                android:layout_toRightOf="@+id/view6"
+                android:text="对空"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view3"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="17dp"
+                android:layout_toRightOf="@+id/view6"
+                android:text="索敌"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view4"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="17dp"
+                android:layout_toRightOf="@+id/view6"
+                android:text="回避"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view5"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="17dp"
+                android:layout_toRightOf="@+id/view6"
+                android:text="装甲"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:id="@+id/able"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/view5"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="可装备舰种"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/able"
+                android:layout_marginTop="40dp"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view10"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view9"
+                android:layout_marginTop="40dp"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view11"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view10"
+                android:layout_marginTop="40dp"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/view11"
+                android:layout_marginTop="40dp"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view13"
+                android:layout_width="1dp"
+                android:layout_height="205dp"
+                android:layout_below="@+id/able"
+                android:layout_marginLeft="180dp"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view14"
+                android:layout_width="1dp"
+                android:layout_height="205dp"
+                android:layout_below="@+id/able"
+                android:layout_marginLeft="90dp"
+                android:background="@color/gray" />
+
+            <View
+                android:id="@+id/view15"
+                android:layout_width="1dp"
+                android:layout_height="205dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/able"
+                android:layout_marginLeft="270dp"
+                android:background="@color/gray" />
+
+            <TextView
+                android:id="@+id/data1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/view14"
+                android:layout_below="@+id/able"
+                android:gravity="center"
+                android:text="駆逐艦"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/data2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view9"
+                android:layout_alignLeft="@+id/view14"
+                android:layout_alignRight="@+id/view13"
+                android:layout_below="@+id/able"
+                android:gravity="center"
+                android:text="軽巡洋艦"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/data3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view9"
+                android:layout_alignLeft="@+id/view13"
+                android:layout_alignRight="@+id/view15"
+                android:layout_below="@+id/able"
+                android:gravity="center"
+                android:text="重雷装艦"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/data4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view9"
+                android:layout_alignLeft="@+id/view15"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/able"
+                android:gravity="center"
+                android:text="重巡洋艦"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/data5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/view14"
+                android:layout_below="@+id/view9"
+                android:gravity="center"
+                android:text="低速戰艦"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/data6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view10"
+                android:layout_alignLeft="@+id/view14"
+                android:layout_alignRight="@+id/view13"
+                android:layout_below="@+id/view9"
+                android:gravity="center"
+                android:text="高速戰艦"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/data7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view10"
+                android:layout_alignLeft="@+id/view13"
+                android:layout_alignRight="@+id/view15"
+                android:layout_below="@+id/view9"
+                android:gravity="center"
+                android:text="航空戰艦"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/data8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view10"
+                android:layout_alignLeft="@+id/view15"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/view9"
+                android:gravity="center"
+                android:text="航空巡洋艦"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/data9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/view14"
+                android:layout_below="@+id/view10"
+                android:gravity="center"
+                android:text="輕空母"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/data10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view11"
+                android:layout_alignLeft="@+id/view14"
+                android:layout_alignRight="@+id/view13"
+                android:layout_below="@+id/view10"
+                android:gravity="center"
+                android:text="正規空母"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/data11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view11"
+                android:layout_alignLeft="@+id/view13"
+                android:layout_alignRight="@+id/view15"
+                android:layout_below="@+id/view10"
+                android:gravity="center"
+                android:text="水上機母艦"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/data12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view11"
+                android:layout_alignLeft="@+id/view15"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/view10"
+                android:gravity="center"
+                android:text="揚陸艦"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/data13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view12"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/view14"
+                android:layout_below="@+id/view11"
+                android:gravity="center"
+                android:text="潛水艦"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/data14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view12"
+                android:layout_alignLeft="@+id/view14"
+                android:layout_alignRight="@+id/view13"
+                android:layout_below="@+id/view11"
+                android:gravity="center"
+                android:text="潛水空母"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/data15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view12"
+                android:layout_alignLeft="@+id/view13"
+                android:layout_alignRight="@+id/view15"
+                android:layout_below="@+id/view11"
+                android:gravity="center"
+                android:text="潛水母艦"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/data16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view12"
+                android:layout_alignLeft="@+id/view15"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/view11"
+                android:gravity="center"
+                android:text="工作艦"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/huoli"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/view1"
+                android:layout_alignLeft="@+id/view7"
+                android:layout_alignRight="@+id/view6"
+                android:layout_below="@+id/data"
+                android:gravity="center"
+                android:text="Here&apos;s the data." />
+
+            <TextView
+                android:id="@+id/leizhuang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/view1"
+                android:layout_alignLeft="@+id/view8"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/data"
+                android:gravity="center"
+                android:text="Here&apos;s the data." />
+
+            <TextView
+                android:id="@+id/baozhuang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/view2"
+                android:layout_alignLeft="@+id/view7"
+                android:layout_alignRight="@+id/view6"
+                android:layout_below="@+id/view1"
+                android:gravity="center"
+                android:text="Here&apos;s the data." />
+
+            <TextView
+                android:id="@+id/duikong"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/view2"
+                android:layout_alignLeft="@+id/view8"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/view1"
+                android:gravity="center"
+                android:text="Here&apos;s the data." />
+
+            <TextView
+                android:id="@+id/duiqian"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/view3"
+                android:layout_alignLeft="@+id/view7"
+                android:layout_alignRight="@+id/view6"
+                android:layout_below="@+id/view2"
+                android:gravity="center"
+                android:text="Here&apos;s the data." />
+
+            <TextView
+                android:id="@+id/suodi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/view3"
+                android:layout_alignLeft="@+id/view8"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/view2"
+                android:gravity="center"
+                android:text="Here&apos;s the data." />
+
+            <TextView
+                android:id="@+id/mingzhong"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/view4"
+                android:layout_alignLeft="@+id/view7"
+                android:layout_alignRight="@+id/view6"
+                android:layout_below="@+id/view3"
+                android:gravity="center"
+                android:text="Here&apos;s the data." />
+
+            <TextView
+                android:id="@+id/huibi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/view4"
+                android:layout_alignLeft="@+id/view8"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/view3"
+                android:gravity="center"
+                android:text="Here&apos;s the data." />
+
+            <TextView
+                android:id="@+id/shecheng"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/view5"
+                android:layout_alignLeft="@+id/view7"
+                android:layout_alignRight="@+id/view6"
+                android:layout_below="@+id/view4"
+                android:gravity="center"
+                android:text="Here&apos;s the data." />
+
+            <TextView
+                android:id="@+id/zhuangjia"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/view5"
+                android:layout_alignLeft="@+id/view8"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/view4"
+                android:gravity="center"
+                android:text="Here&apos;s the data." />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

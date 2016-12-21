@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/assign"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1"
+        android:background="@color/orange" >
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="工廠"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/button_back" />
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/assign"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" >
+            
+            <LinearLayout
+                android:id="@+id/tp1"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="@color/sgreen"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一次性任务"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+                
+            </LinearLayout>
+            
+
+
+            <ImageButton
+                android:id="@+id/f1"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp1"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/f2"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f1"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/f3"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f2"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/f4"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f3"
+                android:background="@drawable/buttom_style" />
+            
+           
+            
+            <ImageButton
+                android:id="@+id/f10"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f4"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/f11"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f10"
+                android:background="@drawable/buttom_style" />
+            
+            
+            
+            <ImageButton
+                android:id="@+id/f13"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f11"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/f14"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f13"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/f15"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f14"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/f16"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f15"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/f17"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f16"
+                android:background="@drawable/buttom_style" />
+            
+           
+            
+            <ImageButton
+                android:id="@+id/f19"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f17"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/f20"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f19"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/f21"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f20"
+                android:background="@drawable/buttom_style" />
+        
+            
+            <LinearLayout
+                android:id="@+id/tp2"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="@color/sgreen"
+                android:layout_below="@+id/f21"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="日常"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+                
+            </LinearLayout>
+            
+             <ImageButton
+                android:id="@+id/f5"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp2"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/f6"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f5"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/f7"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f6"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/f8"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f7"
+                android:background="@drawable/buttom_style" />
+            
+            <ImageButton
+                android:id="@+id/f9"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f8"
+                android:background="@drawable/buttom_style" />
+            
+             <ImageButton
+                android:id="@+id/f18"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/f9"
+                android:background="@drawable/buttom_style" />
+            
+             <LinearLayout
+                android:id="@+id/tp3"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="@color/sgreen"
+                android:layout_below="@+id/f18"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="周常"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+                
+            </LinearLayout>
+            
+            <ImageButton
+                android:id="@+id/f12"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tp3"
+                android:background="@drawable/buttom_style" />
+             
+            <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f1"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F1 はじめての「建造」！"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f2"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F2 はじめての「開発」！"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f3"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F3 はじめての「解体」！"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f4"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F4 はじめての「廃棄」！"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f5"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F5 新装備「開発」指令"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f6"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F6 新造艦「建造」指令"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f7"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F7 装備「開発」集中強化！"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f8"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F8 艦娘「建造」艦隊強化！"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f9"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F9 軍縮条約対応！"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f10"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F10 「大型艦建造」の準備！(その弐)"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f11"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F11 輸送用ドラム缶の準備"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f12"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F12 資源の再利用"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f13"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F13 機種転換"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f14"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F14 機種転換"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f15"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F15 機種転換"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f16"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F16 「伊良湖」の準備"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f17"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F17 はじめての「装備改修」！"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f18"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F18 装備の改修強化"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f19"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F19 機種転換"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f20"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F20 精鋭「九七式艦攻」部隊の編成"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_alignTop="@+id/f21"
+     android:gravity="center"
+     android:orientation="horizontal" >
+ 
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="F21 試作艤装の準備"
+         android:textColor="@color/black"
+         android:textSize="15dp" />
+</LinearLayout> 
+ 
+            
+            
+            
+</RelativeLayout>
+    </ScrollView>
+ </RelativeLayout>
